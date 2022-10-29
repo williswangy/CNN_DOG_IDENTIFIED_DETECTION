@@ -91,13 +91,13 @@ Images Folder - We will find here the images to test our algorithm. Use at least
 saved_models - Where you will find the models those i worked on
 
 
-**Use a CNN to Classify Dog Breeds (using Transfer Learning)**
+*Use a CNN to Classify Dog Breeds (using Transfer Learning)**
 
 I used a CNN to Classify Dog Breeds from pre-trained VGG-16 model **with test accuracy around : 40 %.**
 
 The final convolutional output of the pre-trained VGG-16 model is provided as input to our model, which uses it as a fixed feature extractor. We merely add a fully connected layer and a global average pooling layer, the latter of which has a softmax and one node for each dog type.
 
-**Create a CNN to Classify Dog Breeds (using Transfer Learning)**
+*Create a CNN to Classify Dog Breeds (using Transfer Learning)**
 
 I then used Transfer learning to create a CNN that can identify dog breed from images **with around 80% accuracy on the test set.**
 

@@ -7,7 +7,7 @@ At the end of this project, the app will  accept any user-supplied image as inpu
 # Project Motivation
 
 Though I have completed several guided projects, here I follow the requirements of the CNN project and leverage what I learned into this project.
-# The Road Ahead
+# List of Task
 
 The complete work has been divided into separate steps as below:
 

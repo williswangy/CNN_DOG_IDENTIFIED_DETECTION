@@ -93,32 +93,19 @@ saved_models - Where you will find the models those i worked on
 
 **Use a CNN to Classify Dog Breeds (using Transfer Learning)**
 
-I used a CNN to Classify Dog Breeds from pre-trained VGG-16 model **with test accuracy: 38.1579 %.**
+I used a CNN to Classify Dog Breeds from pre-trained VGG-16 model **with test accuracy around : 40 %.**
 
 The model uses the the pre-trained VGG-16 model as a fixed feature extractor, where the last convolutional output of VGG-16 is fed as input to our model. We only add a global average pooling layer and a fully connected layer, where the latter contains one node for each dog category and is equipped with a softmax.
 
 **Create a CNN to Classify Dog Breeds (using Transfer Learning)**
 
-I then used Transfer learning to create a CNN that can identify dog breed from images **with 80.1435 % accuracy on the test set.**
+I then used Transfer learning to create a CNN that can identify dog breed from images **with around 80% accuracy on the test set.**
 
-My final CNN architecture is built with the Resnet50 bottleneck. Further, GlobalAveragePooling2D used to flatten the features into vector. These vectors were fed into the fully-connected layer towards the end of the ResNet50 model. The fully-connected layer contains one node for each dog category and is assisted with a softmax function.
+The Resnet50 bottleneck served as the foundation for my final CNN architecture. Additionally, GlobalAveragePooling2D was employed to vectorize the features. At the very end of the ResNet50 model, these vectors were input into the fully-connected layer. Each dog category is represented by a single node in the fully connected layer, which also benefits from a softmax function.
 
 # Result Section :
 
 The use of 'transfer learning - Resnet50 model' to implement an algorithm for a Dog identification application has been demonstrated here. The user can provide an image, and the algorithm first detects whether the image is human or dog. If it is a dog, it predicts the breed. If it is a human, it returns the resembling dog breed. The model produces the test accuracy of around 80%. The scope of further improvements has also been suggested in this work.
 
-Here are examples of the algorithms:
 
-![Screenshot](result2.png)
-
-
-
-![Screenshot](result3.png)
-
-
-
-![Screenshot](result1.png)
-
-
-
-# Hey guys.!! The step-wise thought process of creating this model and its results are available here in my [blog](https://medium.com/@manishislampur1988/fun-with-cnn-app-to-identify-breed-of-your-doggy-9d3dbd06c513)
+# Please refer to the medium link here [blog](https://medium.com/@manishislampur1988/fun-with-cnn-app-to-identify-breed-of-your-doggy-9d3dbd06c513)

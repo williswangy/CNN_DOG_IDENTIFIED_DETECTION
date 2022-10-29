@@ -108,4 +108,4 @@ The Resnet50 bottleneck served as the foundation for my final CNN architecture. 
 The use of 'transfer learning - Resnet50 model' to implement an algorithm for a Dog identification application has been demonstrated here. The user can provide an image, and the algorithm first detects whether the image is human or dog. If it is a dog, it predicts the breed. If it is a human, it returns the resembling dog breed. The model produces the test accuracy of around 80%. The scope of further improvements has also been suggested in this work.
 
 
-# Please refer to the medium link here [blog](https://medium.com/@manishislampur1988/fun-with-cnn-app-to-identify-breed-of-your-doggy-9d3dbd06c513)
+# Please refer to the medium link here [blog]()

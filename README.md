@@ -95,7 +95,7 @@ saved_models - Where you will find the models those i worked on
 
 I used a CNN to Classify Dog Breeds from pre-trained VGG-16 model **with test accuracy around : 40 %.**
 
-The model uses the the pre-trained VGG-16 model as a fixed feature extractor, where the last convolutional output of VGG-16 is fed as input to our model. We only add a global average pooling layer and a fully connected layer, where the latter contains one node for each dog category and is equipped with a softmax.
+The final convolutional output of the pre-trained VGG-16 model is provided as input to our model, which uses it as a fixed feature extractor. We merely add a fully connected layer and a global average pooling layer, the latter of which has a softmax and one node for each dog type.
 
 **Create a CNN to Classify Dog Breeds (using Transfer Learning)**
 
